@@ -1,12 +1,14 @@
 ---
 permalink: /
-title: "About me"
+title:
 excerpt:
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
+
+# About me
 
 I am currently a second-year graduate student in [Department of Electronic Engineering and Information Science (EEIS)](https://en.sist.ustc.edu.cn/main.htm) at the [University of Science and Technology of China (USTC)](http://en.ustc.edu.cn/).
 Previously, I received my Bachelor's degree in Mathematics and Applied Mathematics in the [School of the Gifted Young (SGY)](http://en.scgy.ustc.edu.cn/) at USTC in 2022.
