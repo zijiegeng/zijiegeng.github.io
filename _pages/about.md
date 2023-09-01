@@ -8,8 +8,6 @@ redirect_from:
   - /about.html
 ---
 
-# About me
-
 I am currently a second-year graduate student in [Department of Electronic Engineering and Information Science (EEIS)](https://en.sist.ustc.edu.cn/main.htm) at the [University of Science and Technology of China (USTC)](http://en.ustc.edu.cn/).
 Previously, I received my Bachelor's degree in Mathematics and Applied Mathematics in the [School of the Gifted Young (SGY)](http://en.scgy.ustc.edu.cn/) at USTC in 2022.
 I am working towards my Ph.D. degree in the [MIRA Lab](https://miralab.ai/) at USTC, under the supervision of [Prof. Jie Wang](https://miralab.ai/people/jie-wang/).
