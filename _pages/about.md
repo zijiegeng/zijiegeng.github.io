@@ -32,6 +32,10 @@ I have broad research interests, and I have not fully decided where I want to go
 1. Jie Wang, Rui Yang, **Zijie Geng**, Zhihao Shi, Mingxuan Ye, Qi Zhou, Shuiwang Ji, Bin Li, Yongdong Zhang, Feng Wu. "Generalization in Visual Reinforcement Learning with the Reward Sequence Distribution." Preprint. [[paper](https://arxiv.org/pdf/2302.09601.pdf)]
 1. Rui Yang, Jie Wang, **Zijie Geng**, Mingxuan Ye, Shuiwang Ji, Bin Li, Feng Wu. "Learning task-relevant representations for generalization via characteristic functions of reward sequence distributions." **KDD** 2022. [[paper](https://dl.acm.org/doi/abs/10.1145/3534678.3539391)] [[code](https://github.com/MIRALab-USTC/RL-CRESP)]
 
+### Services
+
+- **Conference Reviewer:** KDD 2023, NeurIPS 2023
+
 ## Awards
 
 - MSRA Stars of Tomorrow, 2022
@@ -49,10 +53,6 @@ I have broad research interests, and I have not fully decided where I want to go
   
 - [Nanjing Truezir Software Technology Co., Ltd.](https://www.truezir.com/), Shareholder & Executive, 11/2020 - \
   I with several good friends set up this company after graduating from high school. Our goal: "Bring People Together, Make The World Better." We developed many interesting websites and APPs, such as [TalesStreat](https://www.talesstreet.com/index.html).
-
-## Services
-
-- **Conference Reviewer:** KDD 2023, NeurIPS 2023
 
 ## Interests
 
