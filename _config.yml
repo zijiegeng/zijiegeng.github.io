@@ -81,10 +81,10 @@ analytics:
 # Site Author
 author:
   name             : "Zijie Geng (耿子介)"
-  avatar           : "profile.png"
+  avatar           : "profile.jpg"
   bio              : "M.S. Student at University of Science and Technology of China (USTC)"
+  employer         : "MIRA Lab @ USTC"
   location         : "Hefei · Anhui"
-  employer         :  "MIRA Lab"
   pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.com/citations?user=Ga66HL4AAAAJ&hl=zh-CN"
   email            : "ustcgzj@mail.ustc.edu.cn"
@@ -100,10 +100,10 @@ author:
   google_plus      :
   keybase          :
   instagram        :
-  impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
+  impactstory      : # "https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
   linkedin         :
-  orcid            : "http://orcid.org/yourorcidurl"
+  orcid            : # "http://orcid.org/yourorcidurl"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
