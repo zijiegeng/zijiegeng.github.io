@@ -50,7 +50,7 @@ I have broad research interests, and I have not fully decided where I want to go
 - [Noah’s Ark Lab](http://dev3.noahlab.com.hk/index.html), Huawei Technologies, Research Intern, 2023/08 - \
   I am working as an intern in the Decision Making & Reasoning group in Noah's Ark. My mentors are Siyuan Xu and Zhentao Tang.
   
-- [MSRA](https://www.msra.cn/), Research Intern, 02/2022 - 12/2022 \
+- [Microsoft Research Asia (MSRA)](https://www.msra.cn/), Research Intern, 02/2022 - 12/2022 \
   I worked as an intern in [the DRL group](https://www.microsoft.com/en-us/research/group/deep-and-reinforcement-learning-group/) in MSRA, and then in [MSR AI4Science](https://www.microsoft.com/en-us/research/lab/microsoft-research-ai4science/). My mentors were [Shufang Xie](https://www.microsoft.com/en-us/research/people/shufxi/) and [Yingce Xia](https://www.microsoft.com/en-us/research/people/yinxia/). It was my honor to be awarded the "MSRA Stars of Tomorrow".
   
 - [Nanjing Truezir Software Technology Co., Ltd.](https://www.truezir.com/), Shareholder & Executive, 11/2020 - \
@@ -58,8 +58,8 @@ I have broad research interests, and I have not fully decided where I want to go
 
 ## Interests
 
-- Texas Hold’em Poker. I find it so fun, though I don't play well. I am trying to learn GTO theory. I also like some other board games like Guandan and Legends of the Three Kingdoms.
-- Chinese chess. I used to practice Chinese chess for several years. Now I play occasionally, but not as well as I used to.
-- Mathematics. When I was young, I dreamed of becoming a mathematician. Soon I found out that I was not good at math. However, I still want to say I love mathematics.
-- Debating. I was the team leader of the debate team of School of Gifted Young. But I gave up when I started research.
-- Making new friends. So welcome to contact me!
+- **Texas Hold’em Poker.** I find it so fun, though I don't play well. I am trying to learn GTO theory. I also like some other board games like **Guandan** and **Legends of the Three Kingdoms**.
+- **Chinese chess.** I used to practice Chinese chess for several years. Now I play occasionally, but not as well as I used to.
+- **Mathematics.** When I was young, I dreamed of becoming a mathematician. Soon I found out that I was not good at math. However, I still want to say I love mathematics.
+- **Debating.** I was the team leader of the debate team of School of Gifted Young. But I gave up when I started research.
+- **Making new friends.** So welcome to contact me!
