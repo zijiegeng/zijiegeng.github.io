@@ -30,14 +30,19 @@ I have broad research interests, and I have not fully decided where I want to go
 
 ### Publications
 
-1. **Zijie Geng**, Xijun Li, Jie Wang, Xiao Li, Yongdong Zhang, Feng Wu. "A Deep Instance Generative Framework for MILP Solvers Under Limited Data Availability." **NeurIPS 2023 (Spotlight)**. [[project](https://miralab-ustc.github.io/L2O-G2MILP/)] [[code](https://github.com/MIRALab-USTC/L2O-G2MILP)]
+1. Hong Wang, Zhongkai Hao, Jie Wang, **Zijie Geng**, Zhen Wang, Bin Li, Feng Wu. "Accelerating Data Generation for Neural Operators via Krylov Subspace Recycling." **ICLR 2024 (Spotlight)**.
+1. **Zijie Geng**, Xijun Li, Jie Wang, Xiao Li, Yongdong Zhang, Feng Wu. "A Deep Instance Generative Framework for MILP Solvers Under Limited Data Availability." **NeurIPS 2023 (Spotlight)**. [[paper](https://arxiv.org/pdf/2310.02807.pdf)] [[project](https://miralab-ustc.github.io/L2O-G2MILP/)] [[code](https://github.com/MIRALab-USTC/L2O-G2MILP)]
 1. **Zijie Geng**, Shufang Xie, Yingce Xia, Lijun Wu, Tao Qin, Jie Wang, Yongdong Zhang, Feng Wu, Tie-Yan Liu. "De Novo Molecular Generation via Connection-aware Motif Mining." **ICLR** 2023. [[paper](https://openreview.net/pdf?id=Q_Jexl8-qDi)] [[code](https://github.com/MIRALab-USTC/AI4Sci-MiCaM)]
-1. Jie Wang, Rui Yang, **Zijie Geng**, Zhihao Shi, Mingxuan Ye, Qi Zhou, Shuiwang Ji, Bin Li, Yongdong Zhang, Feng Wu. "Generalization in Visual Reinforcement Learning with the Reward Sequence Distribution." Preprint. [[paper](https://arxiv.org/pdf/2302.09601.pdf)]
-1. Rui Yang, Jie Wang, **Zijie Geng**, Mingxuan Ye, Shuiwang Ji, Bin Li, Feng Wu. "Learning task-relevant representations for generalization via characteristic functions of reward sequence distributions." **KDD 2022**. [[paper](https://dl.acm.org/doi/abs/10.1145/3534678.3539391)] [[code](https://github.com/MIRALab-USTC/RL-CRESP)]
+1. Rui Yang, Jie Wang, **Zijie Geng**, Mingxuan Ye, Shuiwang Ji, Bin Li, Feng Wu. "Learning task-relevant representations for generalization via characteristic functions of reward sequence distributions." **SIGKDD 2022**. [[paper](https://dl.acm.org/doi/abs/10.1145/3534678.3539391)] [[code](https://github.com/MIRALab-USTC/RL-CRESP)]
+
+### Preprint
+1. Xijun Li, Fangzhou Zhu, Hui-Ling Zhen, Weilin Luo, Meng Lu, Yimin Huang, Zhenan Fan, Zirui Zhou, Yufei Kuang, Zhihai Wang, **Zijie Geng**, Yang Li, Haoyang Liu, Zhiwu An, Muming Yang, Jianshu Li, Jie Wang, Junchi Yan, Defeng Sun, Tao Zhong, Yong Zhang, Jia Zeng, Mingxuan Yuan, Jianye Hao, Jun Yao, Kun Mao. "Machine Learning Insides OptVerse AI Solver: Design Principles and Applications." [[paper](https://arxiv.org/pdf/2401.05960.pdf)]
+1. Jie Wang, **Zijie Geng**, Xijun Li, Jianye Hao, Yongdong Zhang, Feng Wu. "G2MILP: Learning to Generate Mixed-Integer Linear Programming Instances for MILP Solvers." [[paper](https://www.techrxiv.org/doi/full/10.36227/techrxiv.24566554.v1)]
+1. Jie Wang, Rui Yang, **Zijie Geng**, Zhihao Shi, Mingxuan Ye, Qi Zhou, Shuiwang Ji, Bin Li, Yongdong Zhang, Feng Wu. "Generalization in Visual Reinforcement Learning with the Reward Sequence Distribution." [[paper](https://arxiv.org/pdf/2302.09601.pdf)]
 
 ### Services
 
-- **Conference Reviewer:** KDD 2023, NeurIPS 2023, AAAI 2024, ICLR 2024.
+- **Conference Reviewer:** KDD 2023, NeurIPS 2023 (**Top Reviewer**), AAAI 2024, ICLR 2024, ICML 2024.
 
 ## Awards
 
