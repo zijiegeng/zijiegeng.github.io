@@ -29,7 +29,7 @@ If you share similar interests or have any inquiries, please feel free to contac
 I have broad research interests, and I have not fully decided where I want to go in the long term. I started my research from reinforcement learning (RL). During my internship in MSRA, I studied molecular generation for drug discovery. After that, I applied the graph generation techniques for learning to optimize (L2O).
 
 ### Publications
-
+1. **Zijie Geng**, Jie Wang, Ziyan Liu, Siyuan Xu, Zhentao Tang, Mingxuan Yuan, Jianye HAO, Yongdong Zhang, Feng Wu. "Reinforcement Learning within Tree Search for Fast Macro Placement." **ICML 2024**.
 1. Hong Wang, Zhongkai Hao, Jie Wang, **Zijie Geng**, Zhen Wang, Bin Li, Feng Wu. "Accelerating Data Generation for Neural Operators via Krylov Subspace Recycling." **ICLR 2024 (Spotlight)**.
 1. **Zijie Geng**, Xijun Li, Jie Wang, Xiao Li, Yongdong Zhang, Feng Wu. "A Deep Instance Generative Framework for MILP Solvers Under Limited Data Availability." **NeurIPS 2023 (Spotlight)**. [[paper](https://arxiv.org/pdf/2310.02807.pdf)] [[project](https://miralab-ustc.github.io/L2O-G2MILP/)] [[code](https://github.com/MIRALab-USTC/L2O-G2MILP)]
 1. **Zijie Geng**, Shufang Xie, Yingce Xia, Lijun Wu, Tao Qin, Jie Wang, Yongdong Zhang, Feng Wu, Tie-Yan Liu. "De Novo Molecular Generation via Connection-aware Motif Mining." **ICLR** 2023. [[paper](https://openreview.net/pdf?id=Q_Jexl8-qDi)] [[code](https://github.com/MIRALab-USTC/AI4Sci-MiCaM)]
