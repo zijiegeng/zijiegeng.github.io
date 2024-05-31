@@ -42,7 +42,7 @@ I have broad research interests, and I have not fully decided where I want to go
 
 ### Services
 
-- **Conference Reviewer:** KDD 2023, NeurIPS 2023 (**Top Reviewer**), AAAI 2024, ICLR 2024, ICML 2024.
+- **Conference Reviewer:** KDD 2023, NeurIPS 2023 (**Top Reviewer**), AAAI 2024, ICLR 2024, ICML 2024, NeurIPS 2024.
 
 ## Awards
 
