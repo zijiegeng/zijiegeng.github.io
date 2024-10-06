@@ -25,6 +25,8 @@ If you share similar interests or have any inquiries, please feel free to contac
 ## Research
 
 ### Publications
+1. Haoyang Liu, Jie Wang, Wanbo Zhang, **Zijie Geng**, Yufei Kuang, Xijun Li, Bin Li, Yongdong Zhang, Feng Wu. "MILP-StuDio: MILP Instance Generation via Block Structure Decomposition." **NeurIPS 2024**.
+1. Jian Luo, Jie Wang, Hong Wang, huanshuo dong, Zijie Geng, Hanzhu Chen, Yufei Kuang. "Neural Krylov Iteration for Accelerating Linear System Solving". **NeurIPS 2024 (Spotlight)**.
 1. **Zijie Geng**, Jie Wang, Ziyan Liu, Siyuan Xu, Zhentao Tang, Mingxuan Yuan, Jianye HAO, Yongdong Zhang, Feng Wu. "Reinforcement Learning within Tree Search for Fast Macro Placement." **ICML 2024**. [[paper](https://openreview.net/pdf?id=AJGwSx0RUV)]
 1. Hong Wang, Zhongkai Hao, Jie Wang, **Zijie Geng**, Zhen Wang, Bin Li, Feng Wu. "Accelerating Data Generation for Neural Operators via Krylov Subspace Recycling." **ICLR 2024 (Spotlight)**. [[paper](https://openreview.net/pdf?id=UpgRVWexaD)]
 1. **Zijie Geng**, Xijun Li, Jie Wang, Xiao Li, Yongdong Zhang, Feng Wu. "A Deep Instance Generative Framework for MILP Solvers Under Limited Data Availability." **NeurIPS 2023 (Spotlight)**. [[paper](https://arxiv.org/pdf/2310.02807.pdf)] [[project](https://miralab-ustc.github.io/L2O-G2MILP/)] [[code](https://github.com/MIRALab-USTC/L2O-G2MILP)]
@@ -39,7 +41,7 @@ If you share similar interests or have any inquiries, please feel free to contac
 
 ### Services
 
-- **Conference Reviewer:** KDD 2023, NeurIPS 2023 (**Top Reviewer**), AAAI 2024, ICLR 2024, ICML 2024, NeurIPS 2024.
+- **Conference Reviewer:** KDD 2023, NeurIPS 2023 (**Top Reviewer**), AAAI 2024, ICLR 2024, ICML 2024, NeurIPS 2024, AAAI 2025, ICLR 2025.
 
 ## Awards
 
