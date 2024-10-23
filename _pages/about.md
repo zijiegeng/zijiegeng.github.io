@@ -45,6 +45,7 @@ If you share similar interests or have any inquiries, please feel free to contac
 
 ## Awards
 
+- National Scholarship, 2024
 - MSRA Stars of Tomorrow, 2022
 - S.-T. Yau College Student Mathematics Contest (Analysis and Partial Differential Equations), Outstanding Prize, 2021
 - The Chinese Mathematics Competitions (CMC), First Price in Anhui Province, 2020
