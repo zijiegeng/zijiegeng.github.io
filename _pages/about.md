@@ -25,11 +25,11 @@ If you share similar interests or have any inquiries, please feel free to contac
 ## Research
 
 ### Publications
-1. Zijie Geng, Jie Wang, Xijun Li, Fangzhou Zhu, Jianye HAO, Bin Li, Feng Wu. "Differentiable Integer Linear Programming." **ICLR 2025**.
-1. Zijie Geng, Jie Wang, Ziyan Liu, Siyuan Xu, Zhentao Tang, Shixiong Kai, Mingxuan Yuan, Jianye HAO, Feng Wu. "LaMPlace: Learning to Optimize Cross-Stage Metrics in Macro Placement." **ICLR 2025**.
-1. Haoyang Liu, Jie Wang, Zijie Geng, Xijun Li, Yuxuan Zong, Fangzhou Zhu, Jianye HAO, Feng Wu. "Apollo-MILP: An Alternating Prediction-Correction Neural Solving Framework for Mixed-Integer Linear Programming." **ICLR 2025**.
+1. **Zijie Geng**, Jie Wang, Xijun Li, Fangzhou Zhu, Jianye HAO, Bin Li, Feng Wu. "Differentiable Integer Linear Programming." **ICLR 2025**.
+1. **Zijie Geng**, Jie Wang, Ziyan Liu, Siyuan Xu, Zhentao Tang, Shixiong Kai, Mingxuan Yuan, Jianye HAO, Feng Wu. "LaMPlace: Learning to Optimize Cross-Stage Metrics in Macro Placement." **ICLR 2025**.
+1. Haoyang Liu, Jie Wang, **Zijie Geng**, Xijun Li, Yuxuan Zong, Fangzhou Zhu, Jianye HAO, Feng Wu. "Apollo-MILP: An Alternating Prediction-Correction Neural Solving Framework for Mixed-Integer Linear Programming." **ICLR 2025**.
 1. Haoyang Liu, Jie Wang, Wanbo Zhang, **Zijie Geng**, Yufei Kuang, Xijun Li, Bin Li, Yongdong Zhang, Feng Wu. "MILP-StuDio: MILP Instance Generation via Block Structure Decomposition." **NeurIPS 2024**. [[paper](https://openreview.net/pdf?id=W433RI0VU4)]
-1. Jian Luo, Jie Wang, Hong Wang, huanshuo dong, Zijie Geng, Hanzhu Chen, Yufei Kuang. "Neural Krylov Iteration for Accelerating Linear System Solving". **NeurIPS 2024 (Spotlight)**. [[paper](https://openreview.net/pdf?id=cqfE9eYMdP)][[code](https://github.com/MIRALab-USTC/AI4Sci-NeurKItt)]
+1. Jian Luo, Jie Wang, Hong Wang, huanshuo dong, **Zijie Geng**, Hanzhu Chen, Yufei Kuang. "Neural Krylov Iteration for Accelerating Linear System Solving". **NeurIPS 2024 (Spotlight)**. [[paper](https://openreview.net/pdf?id=cqfE9eYMdP)][[code](https://github.com/MIRALab-USTC/AI4Sci-NeurKItt)]
 1. **Zijie Geng**, Jie Wang, Ziyan Liu, Siyuan Xu, Zhentao Tang, Mingxuan Yuan, Jianye HAO, Yongdong Zhang, Feng Wu. "Reinforcement Learning within Tree Search for Fast Macro Placement." **ICML 2024**. [[paper](https://openreview.net/pdf?id=AJGwSx0RUV)][[code](https://github.com/MIRALab-USTC/AI4EDA-EfficientPlace)]
 1. Hong Wang, Zhongkai Hao, Jie Wang, **Zijie Geng**, Zhen Wang, Bin Li, Feng Wu. "Accelerating Data Generation for Neural Operators via Krylov Subspace Recycling." **ICLR 2024 (Spotlight)**. [[paper](https://openreview.net/pdf?id=UpgRVWexaD)]
 1. **Zijie Geng**, Xijun Li, Jie Wang, Xiao Li, Yongdong Zhang, Feng Wu. "A Deep Instance Generative Framework for MILP Solvers Under Limited Data Availability." **NeurIPS 2023 (Spotlight)**. [[paper](https://arxiv.org/pdf/2310.02807.pdf)] [[project](https://miralab-ustc.github.io/L2O-G2MILP/)] [[code](https://github.com/MIRALab-USTC/L2O-G2MILP)]
