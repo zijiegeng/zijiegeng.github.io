@@ -25,8 +25,8 @@ If you share similar interests or have any inquiries, please feel free to contac
 ## Research
 
 ### Publications
-1. **Zijie Geng**, Jie Wang, Ziyan Liu, Siyuan Xu, Zhentao Tang, Shixiong Kai, Mingxuan Yuan, Jianye HAO, Feng Wu. "LaMPlace: Learning to Optimize Cross-Stage Metrics in Macro Placement." **ICLR 2025 (Oral)**.
-1. **Zijie Geng**, Jie Wang, Xijun Li, Fangzhou Zhu, Jianye HAO, Bin Li, Feng Wu. "Differentiable Integer Linear Programming." **ICLR 2025 (Spotlight)**.
+1. **Zijie Geng**, Jie Wang, Ziyan Liu, Siyuan Xu, Zhentao Tang, Shixiong Kai, Mingxuan Yuan, Jianye Hao, Feng Wu. "LaMPlace: Learning to Optimize Cross-Stage Metrics in Macro Placement." **ICLR 2025 (Oral)**. [[paper](https://openreview.net/pdf?id=YLIsIzC74j)][[code](https://github.com/MIRALab-USTC/AI4EDA-LaMPlace)]
+1. **Zijie Geng**, Jie Wang, Xijun Li, Fangzhou Zhu, Jianye Hao, Bin Li, Feng Wu. "Differentiable Integer Linear Programming." **ICLR 2025 (Spotlight)**. [[paper](https://openreview.net/pdf?id=FPfCUJTsCn)][[code](https://github.com/MIRALab-USTC/L2O-DiffILO)]
 1. **Zijie Geng**, Jie Wang, Ziyan Liu, Siyuan Xu, Zhentao Tang, Mingxuan Yuan, Jianye HAO, Yongdong Zhang, Feng Wu. "Reinforcement Learning within Tree Search for Fast Macro Placement." **ICML 2024**. [[paper](https://openreview.net/pdf?id=AJGwSx0RUV)][[code](https://github.com/MIRALab-USTC/AI4EDA-EfficientPlace)]
 1. **Zijie Geng**, Xijun Li, Jie Wang, Xiao Li, Yongdong Zhang, Feng Wu. "A Deep Instance Generative Framework for MILP Solvers Under Limited Data Availability." **NeurIPS 2023 (Spotlight)**. [[paper](https://arxiv.org/pdf/2310.02807.pdf)] [[project](https://miralab-ustc.github.io/L2O-G2MILP/)] [[code](https://github.com/MIRALab-USTC/L2O-G2MILP)]
 1. **Zijie Geng**, Shufang Xie, Yingce Xia, Lijun Wu, Tao Qin, Jie Wang, Yongdong Zhang, Feng Wu, Tie-Yan Liu. "De Novo Molecular Generation via Connection-aware Motif Mining." **ICLR** 2023. [[paper](https://openreview.net/pdf?id=Q_Jexl8-qDi)] [[code](https://github.com/MIRALab-USTC/AI4Sci-MiCaM)]
@@ -44,7 +44,14 @@ If you share similar interests or have any inquiries, please feel free to contac
 
 ### Services
 
-- **Conference Reviewer:** KDD 2023, NeurIPS 2023 (**Top Reviewer**), AAAI 2024, ICLR 2024, ICML 2024, NeurIPS 2024, AAAI 2025, ICLR 2025， ICML 2025.
+- **Conference Area Chair:**
+  - NeurIPS 2025.
+- **Conference Reviewer:**
+  - NeurIPS 2023 (**Top Reviewer**) - 2024
+  - ICLR 2024 - 2025
+  - ICML 2024 - 2025
+  - AAAI 2024 - 2025
+  - KDD 2023
 
 ## Awards
 
