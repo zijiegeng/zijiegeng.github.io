@@ -20,6 +20,7 @@ My current research interests include LLM Inference, Learning to Optimize (L2O),
 
 ### Co-Authored Papers
 
+1. Ziyan Liu, Siyuan Xu, Jie Wang, **Zijie Geng**, Yeqiu Chen, Mingxuan Yuan, Jianye Hao and Feng Wu. "PPA-driven Placement via Adaptive Cluster Constraints Optimization." **DATE 2026**.
 1. Tianle Pu, Jianing Li, Yingying Gao, Shixuan Liu, **Zijie Geng**, Haoyang Liu, Chao Chen, Changjun Fan. "CoCo-MILP: Inter-Variable Contrastive and Intra-Constraint Competitive MILP Solution Prediction." **AAAI 2026 (Oral)**.
 1. Tianle Pu, **Zijie Geng**, Haoyang Liu, Shixuan Liu, Jie Wang, Li Zeng, Chao Chen, Changjun Fan. "RoME: Domain-Robust Mixture-of-Experts for MILP Solution Prediction across Domains." **NeurIPS 2025**. [[paper](https://openreview.net/pdf?id=wRQmQ6UXYF)] [[code](https://github.com/happypu326/RoME)]
 1. Zhen Wang, Jie Wang, Zhihai Wang, Siyuan Xu, **Zijie Geng**, Mingxuan Yuan, Jianye Hao. "MAD-EA: A Multi-Mask Driven Evolutionary Algorithm Framework for Macro Placement Refinement." **ISEDA 2025**. [[paper](https://ieeexplore.ieee.org/abstract/document/11101105)]
