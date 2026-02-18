@@ -8,7 +8,15 @@ author_profile: true
 <p class="archive__subtitle">Thoughts, presentations, and articles on AI research and technology.</p>
 
 <div class="blog-intro">
-  <p>Welcome to my blog! Here you'll find my latest presentations, research insights, and thoughts on artificial intelligence, machine learning, and technology.</p>
+  <div class="blog-intro__inner">
+    <div class="blog-intro__body">
+      <p>Welcome to my blog! Here you'll find my latest presentations, research insights, and thoughts on artificial intelligence, machine learning, and technology.</p>
+      <p>欢迎关注我的微信公众号。</p>
+    </div>
+    <div class="blog-intro__qrcode">
+      <img src="{{ site.baseurl }}/slides/0219-xuzhou-ai-talk/ai-tongjian-qrcode.png" alt="微信公众号：AI 通鉴" width="140" height="140">
+    </div>
+  </div>
 </div>
 
 <h2 class="archive__subtitle">Presentations</h2>
@@ -42,10 +50,38 @@ bitter lesson from history, the current state of AI, and the future of AI.
   border-left: 4px solid #2563eb;
 }
 
-.blog-intro p {
-  margin: 0;
+.blog-intro__inner {
+  display: flex;
+  align-items: center;
+  gap: 2em;
+}
+
+.blog-intro__body {
+  flex: 1;
+  min-width: 0;
+}
+
+.blog-intro__body p {
+  margin: 0 0 0.5em;
   font-size: 1.1em;
   color: #1e40af;
+}
+
+.blog-intro__body p:last-child {
+  margin-bottom: 0;
+}
+
+.blog-intro__qrcode {
+  flex-shrink: 0;
+}
+
+.blog-intro__qrcode img {
+  display: block;
+  width: 140px;
+  height: 140px;
+  border-radius: 8px;
+  border: 1px solid rgba(37, 99, 235, 0.3);
+  object-fit: cover;
 }
 
 .presentations-grid {
@@ -107,6 +143,16 @@ bitter lesson from history, the current state of AI, and the future of AI.
 @media (max-width: 768px) {
   .blog-intro {
     padding: 1.5em;
+  }
+
+  .blog-intro__inner {
+    flex-direction: column;
+    gap: 1.2em;
+  }
+
+  .blog-intro__qrcode img {
+    width: 120px;
+    height: 120px;
   }
   
   .presentations-grid {
