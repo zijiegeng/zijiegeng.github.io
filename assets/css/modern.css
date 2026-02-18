@@ -481,8 +481,8 @@ a:hover {
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   border-top: 1px solid var(--border-color);
-  padding: 2em 0;
-  margin-top: 3em;
+  padding: 1.2em 0 0.9em;
+  margin-top: 2em;
 }
 
 .page__footer footer {
@@ -1149,8 +1149,8 @@ tr:hover {
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   border-top: 1px solid var(--border-color);
-  padding: 2.5em 0 1.5em;
-  margin-top: 3em;
+  padding: 1.2em 0 0.9em;
+  margin-top: 2em;
 }
 
 .page__footer footer {
@@ -1164,7 +1164,7 @@ tr:hover {
   display: flex;
   justify-content: center;
   gap: 1em;
-  margin-bottom: 1.2em;
+  margin-bottom: 0.5em;
 }
 
 .footer-social a {
@@ -1193,9 +1193,24 @@ tr:hover {
   margin: 1.5em 0;
 }
 
+.footer-page-views {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5em;
+  margin-bottom: 0.5em;
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+}
+
+.footer-page-views i {
+  color: var(--text-secondary);
+}
+
 .footer-copyright {
   font-size: 0.82rem;
   color: var(--text-muted);
+  margin-top: 0.25em;
 }
 
 /* ==========================================================================
