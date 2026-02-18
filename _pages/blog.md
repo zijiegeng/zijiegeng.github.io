@@ -11,7 +11,7 @@ author_profile: true
   <div class="blog-intro__inner">
     <div class="blog-intro__body">
       <p>Welcome to my blog! Here you'll find my latest presentations, research insights, and thoughts on artificial intelligence, machine learning, and technology.</p>
-      <p>欢迎关注我的微信公众号「AI 通鉴」。</p>
+      <p>欢迎关注微信公众号「AI 通鉴」。</p>
     </div>
     <div class="blog-intro__qrcode">
       <img src="{{ site.baseurl }}/slides/0219-xuzhou-ai-talk/ai-tongjian-qrcode.png" alt="微信公众号：AI 通鉴" width="140" height="140">
