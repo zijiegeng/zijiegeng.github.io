@@ -11,7 +11,7 @@ author_profile: true
   <div class="blog-intro__inner">
     <div class="blog-intro__body">
       <p>Welcome to my blog! Here you'll find my latest presentations, research insights, and thoughts on artificial intelligence, machine learning, and technology.</p>
-      <p>欢迎关注我的微信公众号。</p>
+      <p>欢迎关注我的微信公众号「AI 通鉴」。</p>
     </div>
     <div class="blog-intro__qrcode">
       <img src="{{ site.baseurl }}/slides/0219-xuzhou-ai-talk/ai-tongjian-qrcode.png" alt="微信公众号：AI 通鉴" width="140" height="140">
@@ -19,13 +19,13 @@ author_profile: true
   </div>
 </div>
 
-<h2 class="archive__subtitle">Presentations</h2>
+<h2 class="archive__subtitle">Blogs</h2>
 
 <div class="presentations-grid">
   <article class="archive__item presentation-card">
     <h3 class="archive__item-title presentation-title-with-icon">
       <span class="presentation-icon-inline" aria-hidden="true">🎤</span>
-      <a href="/slides/0219-xuzhou-ai-talk/">人工智能的昨天、今天、明天</a>
+      <a href="{{ site.baseurl }}/slides/0219-xuzhou-ai-talk/">人工智能的昨天、今天、明天</a>
     </h3>
     <p class="page__meta">February 19, 2026 • Xuzhou, China</p>
     <p class="archive__item-excerpt">
@@ -37,7 +37,53 @@ bitter lesson from history, the current state of AI, and the future of AI.
       <span class="tag">Deep Learning</span>
       <span class="tag">Future of AI</span>
     </div>
-    <a href="/slides/0219-xuzhou-ai-talk/" class="btn btn--primary">View Presentation →</a>
+    <a href="{{ site.baseurl }}/slides/0219-xuzhou-ai-talk/" class="btn btn--primary">View Presentation →</a>
+  </article>
+</div>
+
+<h2 class="archive__subtitle">人工智能发展史（本系列发表于公众号「AI 通鉴」，欢迎关注）</h2>
+<h3 class="archive__subtitle">第一章 · 人工智能的哲学溯源</h3>
+
+<div class="ai-history-grid">
+  <article class="archive__item ai-history-card">
+    <a href="{{ site.baseurl }}/ai-history/01-从万物皆数到理性可计算/" class="ai-history-card__link">
+      <div class="ai-history-card__cover">
+        <img src="{{ site.baseurl }}/assets/images/ai-history/01/ai-philosophers.png" alt="">
+      </div>
+      <h3 class="archive__item-title ai-history-card__title">从「万物皆数」到「理性可计算」：人工智能的远古序章</h3>
+    </a>
+  </article>
+  <article class="archive__item ai-history-card">
+    <a href="{{ site.baseurl }}/ai-history/02-希尔伯特纲领/" class="ai-history-card__link">
+      <div class="ai-history-card__cover">
+        <img src="{{ site.baseurl }}/assets/images/ai-history/02/Hilbert.png" alt="">
+      </div>
+      <h3 class="archive__item-title ai-history-card__title">希尔伯特纲领：「证明一切」的雄心与挫败</h3>
+    </a>
+  </article>
+  <article class="archive__item ai-history-card">
+    <a href="{{ site.baseurl }}/ai-history/03-哥德尔不完备定理/" class="ai-history-card__link">
+      <div class="ai-history-card__cover">
+        <img src="{{ site.baseurl }}/assets/images/ai-history/03/Godel.png" alt="">
+      </div>
+      <h3 class="archive__item-title ai-history-card__title">哥德尔不完备定理：理性与计算的边界</h3>
+    </a>
+  </article>
+  <article class="archive__item ai-history-card">
+    <a href="{{ site.baseurl }}/ai-history/04-图灵的两次发问/" class="ai-history-card__link">
+      <div class="ai-history-card__cover">
+        <img src="{{ site.baseurl }}/assets/images/ai-history/04/Turing.png" alt="">
+      </div>
+      <h3 class="archive__item-title ai-history-card__title">图灵的两次发问：从可计算性到人工智能的哲学根基</h3>
+    </a>
+  </article>
+  <article class="archive__item ai-history-card">
+    <a href="{{ site.baseurl }}/ai-history/05-维特根斯坦的语言游戏/" class="ai-history-card__link">
+      <div class="ai-history-card__cover">
+        <img src="{{ site.baseurl }}/assets/images/ai-history/05/Wittgenstein.png" alt="">
+      </div>
+      <h3 class="archive__item-title ai-history-card__title">二十世纪最难理解的哲学家：维特根斯坦的语言游戏</h3>
+    </a>
   </article>
 </div>
 
@@ -136,6 +182,52 @@ bitter lesson from history, the current state of AI, and the future of AI.
   margin-top: 0.75em;
 }
 
+.ai-history-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.25em;
+  margin-top: 0.75em;
+}
+
+.ai-history-card {
+  background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%);
+  border-left: 4px solid #16a34a;
+  padding: 0;
+  margin-top: 0;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.ai-history-card__link {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+}
+
+.ai-history-card__link:hover {
+  color: #15803d;
+}
+
+.ai-history-card__cover {
+  aspect-ratio: 16/10;
+  overflow: hidden;
+  background: #e5e7eb;
+}
+
+.ai-history-card__cover img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.ai-history-card__title {
+  padding: 1em 1.1em;
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.4;
+}
+
 .read-time {
   color: #9ca3af;
 }
@@ -156,6 +248,10 @@ bitter lesson from history, the current state of AI, and the future of AI.
   }
   
   .presentations-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .ai-history-grid {
     grid-template-columns: 1fr;
   }
 }

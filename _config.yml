@@ -107,6 +107,7 @@ include:
   - _pages
   - files
 exclude:
+  - "ai-history/**/*.md"
   - "*.sublime-project"
   - "*.sublime-workspace"
   - .asset-cache

@@ -2,4 +2,6 @@ _site/
 vendor/
 .bundle/
 CURSOR_TASK.md
+# 软链接（仅仓库根目录），仅本地使用，不提交
+/ai-history
 
