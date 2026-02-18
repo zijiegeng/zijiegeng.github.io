@@ -1,0 +1,448 @@
+/* ==========================================================================
+   Modern Custom Styles for Zijie Geng's Website
+   ========================================================================== */
+
+/* CSS Variables for theming */
+:root {
+  --primary-color: #2563eb;
+  --primary-dark: #1d4ed8;
+  --accent-color: #f59e0b;
+  --text-primary: #1f2937;
+  --text-secondary: #6b7280;
+  --text-muted: #9ca3af;
+  --bg-primary: #ffffff;
+  --bg-secondary: #f9fafb;
+  --bg-tertiary: #f3f4f6;
+  --border-color: #e5e7eb;
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  --radius-sm: 6px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Base typography improvements */
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  line-height: 1.7;
+  color: var(--text-primary);
+  background-color: var(--bg-primary);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Improved headings */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+  line-height: 1.3;
+  color: var(--text-primary);
+  margin-top: 2em;
+  margin-bottom: 0.8em;
+}
+
+h1 {
+  font-size: 2.5rem;
+  letter-spacing: -0.02em;
+}
+
+h2 {
+  font-size: 1.875rem;
+  letter-spacing: -0.01em;
+  border-bottom: 2px solid var(--border-color);
+  padding-bottom: 0.5em;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+/* Links */
+a {
+  color: var(--primary-color);
+  text-decoration: none;
+  transition: var(--transition);
+}
+
+a:hover {
+  color: var(--primary-dark);
+  text-decoration: underline;
+}
+
+/* Improved paragraphs */
+p {
+  margin-bottom: 1.2em;
+}
+
+/* Lists */
+ul, ol {
+  margin-bottom: 1.2em;
+  padding-left: 1.5em;
+}
+
+li {
+  margin-bottom: 0.4em;
+}
+
+/* Code and preformatted text */
+code {
+  background-color: var(--bg-tertiary);
+  padding: 0.2em 0.4em;
+  border-radius: var(--radius-sm);
+  font-family: 'JetBrains Mono', Monaco, Consolas, monospace;
+  font-size: 0.9em;
+  color: var(--text-primary);
+}
+
+pre {
+  background-color: var(--bg-secondary);
+  padding: 1.5em;
+  border-radius: var(--radius-md);
+  overflow-x: auto;
+  margin-bottom: 1.5em;
+}
+
+pre code {
+  background: none;
+  padding: 0;
+}
+
+/* Blockquotes */
+blockquote {
+  border-left: 4px solid var(--primary-color);
+  padding-left: 1.5em;
+  margin-left: 0;
+  margin-bottom: 1.5em;
+  color: var(--text-secondary);
+  font-style: italic;
+}
+
+/* Tables */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1.5em;
+  border-radius: var(--radius-md);
+  overflow: hidden;
+}
+
+th, td {
+  padding: 0.75em 1em;
+  text-align: left;
+  border-bottom: 1px solid var(--border-color);
+}
+
+th {
+  background-color: var(--bg-secondary);
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+tr:hover {
+  background-color: var(--bg-secondary);
+}
+
+/* Masthead improvements */
+.masthead {
+  background-color: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid var(--border-color);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.masthead__inner-wrap {
+  padding: 0.75em 1em;
+}
+
+.masthead__menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.greedy-nav {
+  background: transparent;
+}
+
+.greedy-nav a {
+  color: var(--text-primary);
+  font-weight: 500;
+  padding: 0.5em 1em;
+  border-radius: var(--radius-sm);
+  transition: var(--transition);
+}
+
+.greedy-nav a:hover {
+  background-color: var(--bg-secondary);
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+.greedy-nav .site-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--primary-color);
+}
+
+/* Author profile improvements */
+.author__avatar {
+  border-radius: 50%;
+  border: 4px solid var(--bg-primary);
+  box-shadow: var(--shadow-md);
+  overflow: hidden;
+}
+
+.author__avatar img {
+  border-radius: 50%;
+  transition: transform 0.3s ease;
+}
+
+.author__avatar:hover img {
+  transform: scale(1.05);
+}
+
+.author__content {
+  text-align: center;
+}
+
+.author__name {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 0.25em;
+}
+
+.author__bio {
+  color: var(--text-secondary);
+  font-size: 0.95rem;
+  margin-bottom: 1em;
+}
+
+.author__urls-wrapper {
+  text-align: center;
+}
+
+.author__urls a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5em;
+  padding: 0.5em 1em;
+  margin: 0.25em;
+  background-color: var(--bg-secondary);
+  border-radius: var(--radius-sm);
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+  transition: var(--transition);
+}
+
+.author__urls a:hover {
+  background-color: var(--primary-color);
+  color: white;
+  text-decoration: none;
+}
+
+/* Page content improvements */
+.page__content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2em;
+}
+
+.page__title {
+  text-align: center;
+  margin-bottom: 1.5em;
+}
+
+/* Archive improvements */
+.archive {
+  padding: 2em 0;
+}
+
+.archive__item {
+  background-color: var(--bg-secondary);
+  border-radius: var(--radius-md);
+  padding: 1.5em;
+  margin-bottom: 1.5em;
+  transition: var(--transition);
+  border: 1px solid transparent;
+}
+
+.archive__item:hover {
+  border-color: var(--border-color);
+  box-shadow: var(--shadow-md);
+  transform: translateY(-2px);
+}
+
+.archive__item-title {
+  font-size: 1.25rem;
+  margin-bottom: 0.5em;
+}
+
+.archive__item-title a {
+  color: var(--text-primary);
+}
+
+.archive__item-title a:hover {
+  color: var(--primary-color);
+}
+
+.archive__item-excerpt {
+  color: var(--text-secondary);
+  font-size: 0.95rem;
+}
+
+/* Footer improvements */
+.page__footer {
+  background-color: var(--bg-secondary);
+  border-top: 1px solid var(--border-color);
+  padding: 2em 0;
+  margin-top: 3em;
+}
+
+.page__footer footer {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2em;
+  text-align: center;
+  color: var(--text-secondary);
+}
+
+/* Buttons */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5em;
+  padding: 0.75em 1.5em;
+  background-color: var(--primary-color);
+  color: white;
+  border-radius: var(--radius-sm);
+  font-weight: 500;
+  transition: var(--transition);
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: var(--primary-dark);
+  color: white;
+  text-decoration: none;
+  transform: translateY(-1px);
+  box-shadow: var(--shadow-md);
+}
+
+.btn--primary {
+  background-color: var(--primary-color);
+}
+
+.btn--inverse {
+  background-color: var(--bg-tertiary);
+  color: var(--text-primary);
+}
+
+.btn--inverse:hover {
+  background-color: var(--border-color);
+}
+
+/* Notice boxes */
+.notice {
+  border-radius: var(--radius-md);
+  padding: 1em 1.5em;
+  margin-bottom: 1.5em;
+  border-left: 4px solid;
+}
+
+.notice--primary {
+  background-color: #eff6ff;
+  border-color: var(--primary-color);
+}
+
+.notice--success {
+  background-color: #f0fdf4;
+  border-color: var(--success-color);
+}
+
+.notice--warning {
+  background-color: #fffbeb;
+  border-color: var(--warning-color);
+}
+
+.notice--danger {
+  background-color: #fef2f2;
+  border-color: var(--danger-color);
+}
+
+/* Sidebar improvements */
+.sidebar {
+  background-color: var(--bg-secondary);
+  border-radius: var(--radius-lg);
+  padding: 1.5em;
+}
+
+/* Responsive improvements */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+  }
+  
+  .page__content {
+    padding: 1em;
+  }
+  
+  .archive__item {
+    padding: 1em;
+  }
+  
+  .masthead__menu {
+    flex-wrap: wrap;
+  }
+}
+
+/* Dark mode support */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --text-primary: #f9fafb;
+    --text-secondary: #d1d5db;
+    --text-muted: #9ca3af;
+    --bg-primary: #111827;
+    --bg-secondary: #1f2937;
+    --bg-tertiary: #374151;
+    --border-color: #374151;
+  }
+  
+  .masthead {
+    background-color: rgba(17, 24, 39, 0.95);
+  }
+  
+  code {
+    background-color: var(--bg-tertiary);
+  }
+  
+  pre {
+    background-color: var(--bg-secondary);
+  }
+}
+
+/* Print styles */
+@media print {
+  .masthead,
+  .sidebar,
+  .page__footer {
+    display: none;
+  }
+  
+  .page__content {
+    max-width: none;
+    padding: 0;
+  }
+}
