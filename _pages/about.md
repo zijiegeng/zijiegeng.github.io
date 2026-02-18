@@ -12,9 +12,11 @@ redirect_from:
   <div class="hero-content">
     <h1>👋 Hello, I'm Zijie Geng</h1>
     <p>PhD Student @ USTC · AI Researcher · Learning to Optimize</p>
-    <a href="#about-me" class="btn btn--primary" style="color: white; border-color: white;">Learn More ↓</a>
+    <a href="#about-me" class="btn btn--primary">Learn More ↓</a>
   </div>
 </div>
+
+<div id="about-me"></div>
 
 # About me
 
