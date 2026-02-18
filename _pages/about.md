@@ -8,6 +8,14 @@ redirect_from:
   - /about.html
 ---
 
+<div class="hero-section">
+  <div class="hero-content">
+    <h1>👋 Hello, I'm Zijie Geng</h1>
+    <p>PhD Student @ USTC · AI Researcher · Learning to Optimize</p>
+    <a href="#about-me" class="btn btn--primary" style="color: white; border-color: white;">Learn More ↓</a>
+  </div>
+</div>
+
 # About me
 
 I am currently a third-year Ph.D. student in [School of Artificial Intelligence and Data Science](https://saids.ustc.edu.cn/main.htm) at [University of Science and Technology of China (USTC)](http://en.ustc.edu.cn/).
