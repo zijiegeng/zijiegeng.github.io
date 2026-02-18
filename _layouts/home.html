@@ -1,0 +1,96 @@
+---
+layout: default
+---
+
+{% include base_path %}
+
+{% if page.author and site.data.authors[page.author] %}
+  {% assign author = site.data.authors[page.author] %}{% else %}{% assign author = site.author %}
+{% endif %}
+
+<div id="main" role="main">
+  <div class="home-hero">
+    <aside class="home-hero__profile">
+      <div class="profile-card">
+        <div class="profile-card__avatar">
+          {% if author.avatar contains "://" %}
+            <img src="{{ author.avatar }}" alt="{{ author.name }}">
+          {% else %}
+            <img src="{{ author.avatar | prepend: "/images/" | prepend: base_path }}" alt="{{ author.name }}">
+          {% endif %}
+        </div>
+        <div class="profile-card__info">
+          <h2 class="profile-card__name">{{ author.name }}</h2>
+          {% if author.bio %}<p class="profile-card__bio">{{ author.bio }}</p>{% endif %}
+          {% if author.location %}
+            <p class="profile-card__detail"><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> {{ author.location }}</p>
+          {% endif %}
+          {% if author.employer %}
+            <p class="profile-card__detail"><a href="{{ author.uri }}"><i class="fa fa-fw fa-building" aria-hidden="true"></i> {{ author.employer }}</a></p>
+          {% endif %}
+        </div>
+        <div class="profile-card__links">
+          {% if author.email %}
+            <a href="mailto:{{ author.email }}" class="social-link-card">
+              <i class="fas fa-envelope"></i> Email
+            </a>
+          {% endif %}
+          {% if author.github %}
+            <a href="https://github.com/{{ author.github }}" class="social-link-card" target="_blank" rel="noreferrer">
+              <i class="fab fa-github"></i> GitHub
+            </a>
+          {% endif %}
+          {% if author.googlescholar %}
+            <a href="{{ author.googlescholar }}" class="social-link-card" target="_blank" rel="noreferrer">
+              <i class="fas fa-graduation-cap"></i> Scholar
+            </a>
+          {% endif %}
+          {% if author.linkedin %}
+            <a href="https://www.linkedin.com/in/{{ author.linkedin }}" class="social-link-card" target="_blank" rel="noreferrer">
+              <i class="fab fa-linkedin"></i> LinkedIn
+            </a>
+          {% endif %}
+          {% if author.twitter %}
+            <a href="https://twitter.com/{{ author.twitter }}" class="social-link-card" target="_blank" rel="noreferrer">
+              <i class="fab fa-twitter"></i> Twitter
+            </a>
+          {% endif %}
+          {% if author.orcid %}
+            <a href="{{ author.orcid }}" class="social-link-card" target="_blank" rel="noreferrer">
+              <i class="ai ai-orcid"></i> ORCID
+            </a>
+          {% endif %}
+        </div>
+      </div>
+    </aside>
+
+    <div class="home-hero__welcome">
+      <div class="welcome-card">
+        <div class="welcome-card__kicker"><span class="welcome-card__dot"></span> PhD Student · MIRA Lab</div>
+        <h1 class="welcome-card__title">Hello, I'm Zijie Geng</h1>
+        <p class="welcome-card__sub">
+          I am a Ph.D. student at the School of Artificial Intelligence and Data Science, USTC, working in
+          <a href="https://miralab.ai/">MIRA Lab</a> under the supervision of
+          <a href="https://miralab.ai/people/jie-wang/">Prof. Jie Wang</a>.
+        </p>
+        <p class="welcome-card__sub">
+          My current research interests include <strong>Learning to Optimize</strong> and <strong>AI4EDA</strong>.
+        </p>
+        <div class="welcome-card__chips">
+          <span class="welcome-chip"><strong>L2O</strong> · Solver Learning</span>
+          <span class="welcome-chip"><strong>AI4EDA</strong> · Placement</span>
+          <span class="welcome-chip"><strong>MILP</strong> · Generation</span>
+        </div>
+        <div class="welcome-card__actions">
+          <a href="#about-section" class="btn btn--primary">Learn More ↓</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <article class="home-content">
+    <section class="page__content" itemprop="text">
+      {{ content }}
+    </section>
+  </article>
+</div>
