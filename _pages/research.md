@@ -4,7 +4,7 @@ title: "Research"
 author_profile: true
 ---
 
-My current research interests include LLM Inference, Learning to Optimize (L2O), and AI4EDA.
+My current research focuses on **Agent** and **LLM Post-training**. I also have a background in learning-based optimization (L2O) and AI for EDA, with prior work spanning MILP solving, chip placement, and LLM inference efficiency.
 
 ## Publications
 

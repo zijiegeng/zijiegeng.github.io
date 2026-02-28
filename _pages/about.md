@@ -18,7 +18,7 @@ redirect_from:
 <div class="about-grid__item">
 <h3>Bio</h3>
 <p>
-I am currently a third-year Ph.D. student in <a href="https://saids.ustc.edu.cn/main.htm">School of Artificial Intelligence and Data Science</a> at <a href="http://en.ustc.edu.cn/">University of Science and Technology of China (USTC)</a>.
+I am currently a fourth-year Ph.D. student in <a href="https://saids.ustc.edu.cn/main.htm">School of Artificial Intelligence and Data Science</a> at <a href="http://en.ustc.edu.cn/">University of Science and Technology of China (USTC)</a>.
 Previously, I received my Bachelor's degree in Mathematics and Applied Mathematics from <a href="http://en.scgy.ustc.edu.cn/">School of the Gifted Young (SGY)</a> at USTC in 2022.
 I am pursuing my Ph.D. in <a href="https://miralab.ai/">MIRA Lab</a> at USTC, under the supervision of <a href="https://miralab.ai/people/jie-wang/">Prof. Jie Wang</a>.
 </p>
@@ -26,9 +26,9 @@ I am pursuing my Ph.D. in <a href="https://miralab.ai/">MIRA Lab</a> at USTC, un
 <div class="about-grid__item">
 <h3>Research Focus</h3>
 <p>
-Learning-based optimization systems with practical efficiency; applications in MILP and EDA (instance generation, placement, solver acceleration).
+My current research focuses on <strong>Agent</strong> and <strong>LLM Post-training</strong>. I also have a background in learning-based optimization (L2O) and AI for EDA, with prior work on MILP solving, chip placement, and LLM inference efficiency.
 </p>
-<div class="meta">Keywords: MILP · Combinatorial Optimization · EDA · LLM Efficiency</div>
+<div class="meta">Keywords: Agent · LLM Post-training · Reasoning · Combinatorial Optimization · AI4EDA</div>
 <a href="/research/" class="btn btn--primary" style="margin-top: 0.75rem; display: inline-block;"><i class="fas fa-file-alt"></i> View My Publications →</a>
 </div>
 </div>
