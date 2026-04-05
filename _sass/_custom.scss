@@ -1,0 +1,36 @@
+/* Custom styles for visitor map and footer */
+
+.footer-visitor-map {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  text-align: center;
+  clear: both;
+  overflow: hidden;
+  min-height: 200px;
+  position: relative;
+  
+  iframe, img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+/* Ensure footer elements don't overlap */
+.page__footer {
+  position: relative;
+  bottom: auto;
+  height: auto;
+  min-height: auto;
+}
+
+.footer-page-views {
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.footer-copyright {
+  margin-top: 15px;
+  clear: both;
+}
