@@ -1,29 +1,23 @@
 <!-- ClustrMaps visitor map and social links -->
-<div class="footer-stats-container" style="margin-top: 30px; margin-bottom: 20px; display: flex; justify-content: center; align-items: flex-start; gap: 40px; flex-wrap: wrap;">
+<div class="footer-stats-container" style="margin-top: 30px; margin-bottom: 20px; display: flex; justify-content: center; align-items: center; gap: 30px; flex-wrap: wrap;">
   
   <!-- Left: Small Globe Map -->
-  <div class="footer-map" style="flex: 0 0 auto;">
-    <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=u-xT9KH66Oj3l9U5wCeJ2p7g_cJ4ildaEOfeMjg0b5A&w=150"></script>
+  <div class="footer-map" style="flex: 0 0 auto; line-height: 0;">
+    <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=u-xT9KH66Oj3l9U5wCeJ2p7g_cJ4ildaEOfeMjg0b5A&w=100"></script>
   </div>
   
   <!-- Right: Social Links and Stats -->
-  <div class="footer-info" style="flex: 0 0 auto; text-align: left; display: flex; flex-direction: column; gap: 15px;">
+  <div class="footer-info" style="flex: 0 0 auto; text-align: center; display: flex; flex-direction: column; gap: 10px; align-items: center;">
     
-    <!-- Social Links -->
-    <div class="footer-social-links" style="display: flex; gap: 20px; align-items: center;">
-      <a href="mailto:zijiegeng@mail.ustc.edu.cn" title="Email" style="color: inherit; text-decoration: none; font-size: 1.2em;">
-        <i class="fas fa-envelope"></i> Email
-      </a>
-      <a href="https://github.com/zijiegeng" title="GitHub" style="color: inherit; text-decoration: none; font-size: 1.2em;">
-        <i class="fab fa-github"></i> GitHub
-      </a>
-      <a href="https://scholar.google.com/citations?user=Ga66HL4AAAAJ&hl=zh-CN" title="Google Scholar" style="color: inherit; text-decoration: none; font-size: 1.2em;">
-        <i class="fas fa-graduation-cap"></i> Google Scholar
-      </a>
+    <!-- Social Links (using original footer-social class for styling) -->
+    <div class="footer-social" style="display: flex; gap: 15px; align-items: center; justify-content: center;">
+      <a href="mailto:{{ site.author.email }}" title="Email"><i class="fas fa-envelope"></i></a>
+      <a href="https://github.com/{{ site.author.github }}" title="GitHub"><i class="fab fa-github"></i></a>
+      <a href="{{ site.author.googlescholar }}" title="Google Scholar"><i class="fas fa-graduation-cap"></i></a>
     </div>
     
-    <!-- Page Views -->
-    <div class="footer-page-views" style="font-size: 0.9em; color: #666;">
+    <!-- Page Views (using original footer-page-views class for styling) -->
+    <div class="footer-page-views">
       <i class="fas fa-chart-line" aria-hidden="true"></i>
       <span>本站总访问量 <span id="busuanzi_value_site_pv">...</span> 次</span>
     </div>

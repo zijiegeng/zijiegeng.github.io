@@ -1,27 +1,6 @@
 {% include base_path %}
 
-<div class="footer-social">
-  {% if site.author.email %}
-    <a href="mailto:{{ site.author.email }}" title="Email"><i class="fas fa-envelope"></i></a>
-  {% endif %}
-  {% if site.author.github %}
-    <a href="https://github.com/{{ site.author.github }}" title="GitHub"><i class="fab fa-github"></i></a>
-  {% endif %}
-  {% if site.author.googlescholar %}
-    <a href="{{ site.author.googlescholar }}" title="Google Scholar"><i class="fas fa-graduation-cap"></i></a>
-  {% endif %}
-  {% if site.author.linkedin %}
-    <a href="https://www.linkedin.com/in/{{ site.author.linkedin }}" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
-  {% endif %}
-  {% if site.author.twitter %}
-    <a href="https://twitter.com/{{ site.author.twitter }}" title="Twitter"><i class="fab fa-twitter"></i></a>
-  {% endif %}
-</div>
-
-<div class="footer-page-views">
-  <i class="fas fa-chart-line" aria-hidden="true"></i>
-  <span>本站总访问量 <span id="busuanzi_value_site_pv">...</span> 次</span>
-</div>
+<!-- Social links and page views moved to custom.html with map -->
 
 <div class="footer-copyright">
   &copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}. Built with Jekyll & crafted with Claude Opus 4.6.
