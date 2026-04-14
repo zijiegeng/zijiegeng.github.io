@@ -44,7 +44,9 @@ My current research focuses on **Agent** and **LLM Post-training**. I also have 
   - IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)
 - **Conference Reviewer:**
   - NeurIPS 2023 - 2025 (**NeurIPS 2023 & 2025 Top Reviewer**)
-  - ICLR 2024 - 2026
+  - ICLR 2024 - 2026 (**ICLR 2026 Top 200 Reviewer**)
   - ICML 2024 - 2025
   - AAAI 2024 - 2026
   - KDD 2023
+- **Area Chair:**
+  - NeurIPS 2026 (Declined)
