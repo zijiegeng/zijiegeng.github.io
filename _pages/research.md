@@ -32,7 +32,8 @@ My current research focuses on **Agent** and **LLM Post-training**. I also have 
 
 ## Preprint
 
-1. Zhexuan Xu, Kexin Zhou, Jie Wang, **Zijie Geng**, Siyuan Xu, Shixiong Kai, Mingxuan Yuan, Feng Wu. "Piano: A Multi-Constraint Pin Assignment-Aware Floorplanner." [[paper](https://arxiv.org/pdf/2508.13161)] 
+1. Zelin Tan, Zhouliang Yu, Bohan Lin, **Zijie Geng**, Hejia Geng, Yudong Zhang, Mulei Zhang, Yang Chen, Shuyue Hu, Zhenfei Yin, Chen Zhang, Lei Bai. "PAPO: Stabilizing Rubric Integration Training via Decoupled Advantage Normalization." [[paper](https://arxiv.org/pdf/2603.26535)]
+1. Zhexuan Xu, Kexin Zhou, Jie Wang, **Zijie Geng**, Siyuan Xu, Shixiong Kai, Mingxuan Yuan, Feng Wu. "Piano: A Multi-Constraint Pin Assignment-Aware Floorplanner." [[paper](https://arxiv.org/pdf/2508.13161)]
 1. Zhexuan Xu, Jie Wang, Siyuan Xu, **Zijie Geng**, Mingxuan Yuan, Feng Wu. "One Step Beyond: Feedthrough & Placement-Aware Rectilinear Floorplanner." [[paper](https://arxiv.org/pdf/2507.14914)]
 1. Xijun Li, Fangzhou Zhu, Hui-Ling Zhen, Weilin Luo, Meng Lu, Yimin Huang, Zhenan Fan, Zirui Zhou, Yufei Kuang, Zhihai Wang, **Zijie Geng**, Yang Li, Haoyang Liu, Zhiwu An, Muming Yang, Jianshu Li, Jie Wang, Junchi Yan, Defeng Sun, Tao Zhong, Yong Zhang, Jia Zeng, Mingxuan Yuan, Jianye Hao, Jun Yao, Kun Mao. "Machine Learning Insides OptVerse AI Solver: Design Principles and Applications." [[paper](https://arxiv.org/pdf/2401.05960.pdf)]
 1. Jie Wang, **Zijie Geng**, Xijun Li, Jianye Hao, Yongdong Zhang, Feng Wu. "G2MILP: Learning to Generate Mixed-Integer Linear Programming Instances for MILP Solvers." [[paper](https://www.techrxiv.org/doi/full/10.36227/techrxiv.24566554.v1)]
